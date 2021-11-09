@@ -3,3 +3,11 @@ To run the server :- yarn serve-json
 Sample GET Request:
 http://localhost:3000/products
 http://localhost:3000/reviews
+
+Filtering:
+http://localhost:3000/products?category=electronics //To filter product where category is electronics
+http://localhost:3000/products?category=electronics&price=4000 //To filter product where category is electronics and price as 4000
+
+Sorting:
+http://localhost:3000/products?_sort=price //By price
+http://localhost:3000/products?_sort=price&_order=desc // explicit sort order
