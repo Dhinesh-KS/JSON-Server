@@ -1,0 +1,5 @@
+To run the server :- yarn serve-json
+
+Sample GET Request:
+http://localhost:3000/products
+http://localhost:3000/reviews
