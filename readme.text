@@ -11,3 +11,7 @@ http://localhost:3000/products?category=electronics&price=4000 //To filter produ
 Sorting:
 http://localhost:3000/products?_sort=price //By price
 http://localhost:3000/products?_sort=price&_order=desc // explicit sort order
+
+Pagination:
+http://localhost:3000/products?_page=1 //Get records by pages
+http://localhost:3000/products?_page=1&_limit=2 //Get records by pages and no.of.records limit
