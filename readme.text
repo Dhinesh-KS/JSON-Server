@@ -15,3 +15,12 @@ http://localhost:3000/products?_sort=price&_order=desc // explicit sort order
 Pagination:
 http://localhost:3000/products?_page=1 //Get records by pages
 http://localhost:3000/products?_page=1&_limit=2 //Get records by pages and no.of.records limit
+
+Operators:
+_gte = greater than or equal to
+_lte = less than or equal to
+_ne  = not equal
+
+http://localhost:3000/products?price_gte=5000
+http://localhost:3000/products?price_lte=5000
+http://localhost:3000/products?price_ne=5000
