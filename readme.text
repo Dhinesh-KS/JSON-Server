@@ -24,3 +24,8 @@ _ne  = not equal
 http://localhost:3000/products?price_gte=5000
 http://localhost:3000/products?price_lte=5000
 http://localhost:3000/products?price_ne=5000
+
+Full text search:
+To search for similar text on the entire json
+
+http://localhost:3000/products?q=in
