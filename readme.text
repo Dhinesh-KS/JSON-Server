@@ -29,3 +29,11 @@ Full text search:
 To search for similar text on the entire json
 
 http://localhost:3000/products?q=in
+
+Relationships:
+
+- Including children resources while querying parent using '_embed'
+http://localhost:3000/products?_embed=reviews
+
+- Including parent resources while querying child using '_expand'
+http://localhost:3000/reviews?_expand=product
